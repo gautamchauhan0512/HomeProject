@@ -60,6 +60,9 @@ export default function SadiCardCalculator() {
           placeholder="Enter Nang"
         />
         <div className="buttons">
+           <button onClick={resetBtn} className="reset">
+            Reset
+          </button>
           <button
             onClick={handleEntries}
             disabled={
@@ -71,9 +74,7 @@ export default function SadiCardCalculator() {
           >
             Add
           </button>
-          <button onClick={resetBtn} className="reset">
-            Reset
-          </button>
+         
         </div>
       </div>
 
